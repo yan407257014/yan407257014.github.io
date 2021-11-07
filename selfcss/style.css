@@ -1,0 +1,118 @@
+body {
+	margin:0; 
+	padding:0; 
+	border:0;
+	/*font-family: Arial, Helvetica, sans-serif,微軟正黑體;*/
+	font-family: "Arial", Gadget, "Microsoft JhengHei";
+}
+.wrapper {
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+}
+.navbg{
+	background-color: #6f3826;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    color: #A76350;
+}
+.footer{
+    background: #C2E9C8;
+    height: 120px;
+    clear: both;
+}
+.ftop {
+    font-family: Arial, Helvetica, sans-serif,'微軟正黑體';
+    font-size: 15px;
+    color: #184d47;
+    margin-left: 40px;
+    width: 930px;
+    height: 20px;
+    padding-top: 10px;
+}
+.paraword {
+    font-family: Arial, Helvetica, sans-serif,'微軟正黑體';
+    font-size: 15px;
+    color: #184d47;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 930px;
+    height: 20px;
+}
+.copyright {
+    height: 35px;
+    position: absolute;
+    z-index: 5;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-size: 12px;
+    color: #184d47;
+}
+a, a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+        text-decoration-color: currentcolor;
+        text-decoration-thickness: auto;
+}
+.paraword div {
+    float:left;
+    margin:10px;
+}
+.paraword a {
+	color: #184d47;
+}
+.content{
+    width: 960px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+.orderleft{
+    width: 800px;
+}
+
+#shopicon{
+    width:50px;
+}
+
+.card {
+    border-radius: 16px;
+    margin:10px;
+    width: 15rem;
+    max-width: 100%;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    background-size: cover;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block !important;
+}
+.carousel-item>img{
+    max-height: 350px;
+}
+.card-body a{
+    float: right;
+    font-size: 18px;
+    color: #184d47;
+}
+.card-body a:hover{
+    color: #829694;
+}
+svg {
+    overflow: hidden;
+    vertical-align: text-bottom;
+}
+.shopimg{
+    width: 20%;
+    margin:15px 20px 0 0;
+}
+#alink{
+    color: #58d;
+}
